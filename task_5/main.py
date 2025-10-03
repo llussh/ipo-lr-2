@@ -1,0 +1,8 @@
+octal_str = input("Введите 5-значное число: ")
+d1 = int(octal_str[0])
+d2 = int(octal_str[1])
+d3 = int(octal_str[2])
+d4 = int(octal_str[3])
+d5 = int(octal_str[4])
+decimal_number = (d1 * (8**4)) + (d2 *  (8**3)) + (d3 * (8**2)) +(d4 * (8**1)) + (d5 * (8** 0))
+print("Значение этого числа в десятичной системы счисления: ", decimal_number)
